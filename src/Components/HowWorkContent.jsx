@@ -2,17 +2,17 @@ import { AiOutlineDollarCircle, AiOutlineGlobal, AiOutlineCrown } from "react-ic
 
 let cards = [
     {
-        icon: <AiOutlineDollarCircle className="icon" />,
+        icon: "/bar-chart.png",
         title: "MOST COST EFFECTIVE SALES SUPPORT",
         content: "We deliver scalable sales solutions that maximize ROI and reduce operational costs, tailored to suit your business goals without compromising on quality or performance."
     },
     {
-        icon: <AiOutlineGlobal className="icon" />,
+        icon: "/networking.png",
         title: "PERFECTLY CONNECTED ACROSS EUROPE AND AUSTRALASIA",
         content: "Our strong presence and reliable partner networks across Europe and Australasia ensure seamless communication, fast logistics, and consistent brand support in every market."
     },
     {
-        icon: <AiOutlineCrown className="icon" />,
+        icon: "/rating.png",
         title: "EXPERIENCED EXPERTS IN THE LUXURY MARKET",
         content: "With years of experience in the premium and luxury sectors, our team brings deep insight, refined strategy, and unmatched attention to detail tailored for high-end brands."
     }
@@ -34,7 +34,7 @@ export default function HowWorkContent() {
                 cards.map((card, i)=>{
                     return <div className="card" key={i}>
                         <div className="inner-card">
-                            {card.icon}
+                        <div className="icon" style={{backgroundImage: `url(${card.icon})`}}></div>
                         <div className="title">{card.title}</div>
                         <div className="divider"></div>
                         <div className="content">{card.content}</div>
