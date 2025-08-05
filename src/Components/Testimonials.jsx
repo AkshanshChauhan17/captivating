@@ -31,7 +31,7 @@ export default function Testimonials() {
     <div className="testimonials">
       <div className="head">
         <div className="line"></div>
-        <div className="text">TESTIMONIALS</div>
+        <div className="text font-y">TESTIMONIALS</div>
         <div className="line"></div>
       </div>
       <div className="cards-container">

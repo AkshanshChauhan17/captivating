@@ -1,6 +1,6 @@
 export default function SMPR() {
     return <div className="sales-mark-pr">
-        <div className="heading">
+        <div className="heading font-y">
             SALES, MARKETING AND PR
         </div>
         <div className="paragraph">

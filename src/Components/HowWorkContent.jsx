@@ -1,5 +1,3 @@
-import { AiOutlineDollarCircle, AiOutlineGlobal, AiOutlineCrown } from "react-icons/ai";
-
 let cards = [
     {
         icon: "/bar-chart.png",
