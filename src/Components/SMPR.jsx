@@ -1,5 +1,5 @@
 export default function SMPR() {
-    return <div className="sales-mark-pr">
+    return <div className="sales-mark-pr layer-bg">
         <div className="heading font-y">
             SALES, MARKETING AND PR
         </div>

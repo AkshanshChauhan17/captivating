@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: 'Wisteria';
-    src: url('./assets/Wisteria.otf');
+    src: url('./assets/Wisteria.ttf');
 }
 
 @font-face {
     font-family: 'Coogoose';
-    src: url('./assets/Cocogoose.ttf');
+    src: url('./assets/Cocogoose-Pro-Light-trial.ttf');
 }
 
 .font-x {
@@ -99,6 +99,11 @@
 }
 
 .sales-mark-pr {
+    background-image: url("../public/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-position-y: -600px;
+    background-repeat: no-repeat;
     padding: 60px 40px;
     height: 100vh;
     display: flex;
@@ -107,9 +112,6 @@
     align-items: center;
     gap: 40px;
     color: white;
-    background-image: url("../public/glow.png");
-    background-position: center;
-    background-size: cover;
     .heading {
         font-size: 40px;
         margin-bottom: 40px;
@@ -150,7 +152,7 @@
 }
 
 .type-hotels {
-    height: 100vh;
+    height: 140vh;
     padding: 60px 40px;
     display: flex;
     flex-direction: column;
@@ -178,7 +180,7 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
-        height: 80vh;
+        height: 100vh;
         position: relative;
         align-items: center;
         .content-controls {
